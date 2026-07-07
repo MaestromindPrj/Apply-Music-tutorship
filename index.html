@@ -3,14 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Music Tutorship</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <meta name="description" content="Learn music production with L.J. Vijay through a structured mentorship program. Master production, mixing, arrangement, sound design, and confidently release your own music.">
+    <meta name="keywords" content="Music Production Course, Music Production Mentorship, L.J. Vijay, Music Producer, Mixing, Sound Design, Arrangement, Learn Music Production, Music Tutorship">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="L.J. Vijay">
+
+    <link rel="canonical" href="https://yourdomain.com/">
+
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="apple-touch-icon" href="images/icon.png">
+
+    <meta property="og:title" content="Music Tutorship | Premium Music Production Mentorship">
+    <meta property="og:description" content="Master music production with industry mentor L.J. Vijay and confidently release your own music.">
+    <meta property="og:image" content="https://yourdomain.com/images/og-image.jpg">
+    <meta property="og:url" content="https://yourdomain.com">
+
+    <script type="application/ld+json">
+      {
+        "@context":"https://schema.org",
+        "@type":"Course",
+        "name":"Music Production Mentorship",
+        "description":"Premium music production mentorship by L.J. Vijay.",
+        "provider":{
+          "@type":"Person",
+          "name":"L.J. Vijay"
+        }
+      }
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '994510856365306');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=994510856365306&ev=PageView&noscript=1"/>
+    </noscript>
+<!-- End Meta Pixel Code -->
+ 
 </head>
+
 <body>
     <header class="header">
       <div class="header-grid container">
-        <div class="hero">
-          <p class="small-title">MUSIC TUTORSHIP</p>
+        <div class="logo">
+          <img class="logoimg" src="./images/logo.svg">
+          <p class="small-title">Music Tutorship</p>
         </div>
 
         <div class="header-right">
@@ -18,58 +68,128 @@
         </div>
       </div>
     </header>
+    
+    <section class="hero2" id="contact">
+      <div class="hero-overlay"></div>
+        <div class="container">
+          <div class="hero2-content">
 
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-left">
-          <h1>FROM ASPIRING PRODUCER TO RELEASED ARTIST IN 4 MONTHS</h1>
-        </div>
+            <!-- left -->
 
-        <div class="hero-right">
-          <p>
-            Master music production, sound design, arrangement, mixing, and
-            release your own professionally produced track to the world.
-          </p>
+            <div class="hero2-left reveal">
+              <h1>
+                FROM ASPIRING PRODUCER TO RELEASED ARTIST IN 4 MONTHS
+              </h1>
 
-          <div class="hero-info">
+              <p class="hero2-description">
+                Master music production, sound design, arrangement,
+                mixing, and release your own professionally produced
+                track to the world.
+              </p>
+
+              <p class="hero2-seat">
+                Only <span>13 Seats</span> Available For The Upcoming Cohort
+              </p>
             
-            <span>Only 13 Seats Available for the Upcoming Cohort</span>
-            <a href="#contact" class="btn"> Apply Now </a>
-          
+            </div>
+
+            <!-- RIGHT -->
+
+            <div class="hero2-form reveal">
+
+              <h2>Start Your Journey</h2>
+
+              <form id="applyForm">
+                <div class="form-row">
+
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Your Name"
+                    required
+                  >
+
+                  <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter Your Number"
+                    required
+                  >
+
+                </div>
+
+                <div class="form-row">
+
+                  <input
+                    type="url"
+                    id="music-link"
+                    placeholder="Music Link (Ex: YouTube)"
+                  >
+
+                  <select name="budget" id="budget" required>
+
+                    <option value="" disabled selected>
+                      Financial Commitment
+                    </option>
+                    
+                    <option value="I Understand This Requires An Investment Of ₹1,59,000,
+                          And I Have The Capital Ready If Accepted.">
+                      I Understand This Requires An Investment Of ₹1,59,000,
+                      And I Have The Capital Ready If Accepted.
+                    </option>
+
+                    <option value="I Am Highly Interested But Would Need To Discuss
+                          EMI Payment Plan Options.">
+                      I Am Highly Interested But Would Need To Discuss
+                      EMI Payment Plan Options.
+                    </option>
+
+                    <option value="I Cannot Commit To This Financial Level At This Time.">
+                      I Cannot Commit To This Financial Level At This Time.
+                    </option>
+                  </select>
+
+                </div>
+
+                <textarea
+                  id="message"
+                  rows="4"
+                  placeholder="What Stops You From Finishing And Releasing Tracks?"
+                ></textarea>
+
+                <button type="submit">
+                  Apply Now
+                </button>
+
+              </form>
+            </div>
+
           </div>
         </div>
-      </div>
-
-      <div class="hero-image">
-        <img
-          src="./images/hero.png"
-          alt="DJ"
-        />
-      </div>
     </section>
 
     <section class="stats">
       <div class="container stats-grid">
-        <div class="stat">
+        <div class="stat stagger">
           <h2>4.9</h2>
 
           <p>Average Rating</p>
         </div>
 
-        <div class="stat">
+        <div class="stat stagger">
           <h2>300+</h2>
 
           <p>Students Mentored</p>
         </div>
 
-        <div class="stat">
+        <div class="stat stagger">
           <h2>60M+</h2>
 
           <p>Total Streams</p>
         </div>
 
-        <div class="stat">
-          <h2>94%</h2>
+        <div class="stat stagger">
+          <h2>98%</h2>
 
           <p>Student Success Rate</p>
         </div>
@@ -78,13 +198,13 @@
 
     <section class="why">
       <div class="container">
-        <h2>
-          WHY MOST PRODUCERS STAY <br />STUCK—AND HOW WE HELP YOU <br />
+        <h2 class="reveal">
+          WHY MOST PRODUCERS STAY <br />STUCK AND HOW WE HELP YOU <br />
           THROUGH
         </h2>
 
         <div class="why-grid">
-          <div class="card">
+          <div class="card stagger">
             <h3>Most Courses Teach Software. We Teach Song Completion</h3>
 
             <p>
@@ -94,7 +214,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card stagger">
             <h3>Most Learn Alone. You Learn With Mentors.</h3>
 
             <p>
@@ -104,7 +224,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card stagger">
             <h3>Most Dream About Releasing Music. You Actually Do It.</h3>
 
             <p>
@@ -119,13 +239,12 @@
 
     <section class="testimonials">
       <div class="container">
-        <h2>
-          FROM ASPIRING PRODUCERS <br />
-          TO RELEASED ARTISTS
+        <h2 class="reveal">
+          SEE WHAT OUR STUDENTS SAYS
         </h2>
 
         <div class="testimonial-grid">
-          <div class="testimonial">
+          <div class="testimonial stagger">
             <p>
               “ I’ve already started producing my tracks with more confidence
               and Mr. Vijay gave us excellent mentoring from how to structure
@@ -135,23 +254,23 @@
 
             <div class="person">
               <div>
-                <h4>Ella Maran</h4>
+                <h4>Ela Maran</h4>
 
                 <span>Batch 2B</span>
               </div>
             </div>
           </div>
 
-          <div class="testimonial-video">
+          <div class="testimonial-video stagger">
             <iframe
-                src="https://www.youtube.com/embed/zu9Y95vQST0"
+                src="https://www.youtube.com/embed/kyK_FtthUkY"
                 title="Student Testimonial"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
         </div>
 
-          <div class="testimonial">
+          <div class="testimonial stagger">
             <p>
               “ Being a businessman with a deep passion for music, Vijay helped
               me out with all the music production essentials and he guided me
@@ -168,7 +287,7 @@
             </div>
           </div>
 
-          <div class="testimonial">
+          <div class="testimonial stagger">
             <p>
               “ We had a most interesting learning experience in Music tutorship
               under guidance of Vijay sir. He gave us a proper roadmap
@@ -185,7 +304,7 @@
             </div>
           </div>
 
-          <div class="testimonial">
+          <div class="testimonial stagger">
             <p>
               “ I’ve took the three months program and it’s already second month
               now and I’m loving every sessions and Vijay’s guidance is amazing
@@ -202,9 +321,9 @@
             </div>
           </div>
 
-          <div class="testimonial-video">
+          <div class="testimonial-video stagger">
             <iframe
-                src="https://www.youtube.com/embed/ibQwEnltp7s"
+                src="https://www.youtube.com/embed/2H5MWS6S1eE"
                 title="Student Testimonial"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
@@ -215,9 +334,9 @@
       </div>
     </section>
 
-    <section class="roadmap">
+    <section class="roadmap" id="course-modules">
       <div class="container">
-        <h2 class="section-title">
+        <h2 class="section-title reveal">
           YOUR ROADMAP TO BECOMING A <br />
           RELEASED ARTIST
         </h2>
@@ -225,7 +344,7 @@
         <div class="roadmap-wrapper">
           <!-- Month 1 -->
 
-          <div class="roadmap-card">
+          <div class="roadmap-card stagger">
             <div class="month-box">
               <span>MONTH</span>
               <h3>01</h3>
@@ -245,7 +364,7 @@
 
           <!-- Month 2 -->
 
-          <div class="roadmap-card">
+          <div class="roadmap-card stagger">
             <div class="month-box">
               <span>MONTH</span>
               <h3>02</h3>
@@ -265,7 +384,7 @@
 
           <!-- Month 3 -->
 
-          <div class="roadmap-card">
+          <div class="roadmap-card stagger">
             <div class="month-box">
               <span>MONTH</span>
               <h3>03</h3>
@@ -285,7 +404,7 @@
 
           <!-- Month 4 -->
 
-          <div class="roadmap-card">
+          <div class="roadmap-card stagger">
             <div class="month-box">
               <span>MONTH</span>
               <h3>04</h3>
@@ -308,12 +427,12 @@
 
     <section class="outcomes">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <h2>WHAT YOU'LL ACHIEVE BY THE END OF THE PROGRAM</h2>
             </div>
 
             <div class="outcomes-grid">
-                <article class="outcome-card">
+                <article class="outcome-card stagger">
                     <span class="number">01</span>
                     <h3>Create</h3>
                     <p>
@@ -322,7 +441,7 @@
                     </p>
                 </article>
 
-                <article class="outcome-card">
+                <article class="outcome-card stagger">
                     <span class="number">02</span>
                     <h3>Refine</h3>
                     <p>
@@ -331,7 +450,7 @@
                     </p>
                 </article>
 
-                <article class="outcome-card">
+                <article class="outcome-card stagger">
                     <span class="number">03</span>
                     <h3>Release</h3>
                     <p>
@@ -346,27 +465,44 @@
     <section class="mentor">
         <div class="container">
             <div class="mentor-content">
-                <div class="mentor-text">
-                    <h2>MEET YOUR MENTOR</h2>
+                <div class="mentor-text reveal">
+                    <h2>MEET YOUR MENTOR, <span class=name>Vijay</span></h2>
+                    
+                    <div class="mentor-copy">
+                      <p class="mentor-description">
+                        With over a decade of experience in music production, I've dedicated my career to helping aspiring musicians unlock their creative potential. My journey spans working with renowned artists, producing tracks that have reached millions, and mentoring hundreds of students who've built successful music careers.
+                      </p>
 
-                    <p class="mentor-description">
-                    With production credits alongside some of India's leading artists and
-                    composers, including Gibran, Vijay Antony, D. Imman, C. Sathya, and
-                    Vishal Chandrasekhar, L.J. Vijay brings years of real-world industry
-                    experience into every lesson. His approach combines technical
-                    expertise, creative development, and practical industry insight to
-                    help aspiring producers move beyond tutorials, finish their music,
-                    and confidently release it to the world.
-                    </p>
+                      <div class="mentor-stats">
 
-                    <blockquote class="mentor-quote">
-                    “ Music Production Is Ultimately About Storytelling, Emotion, And
-                    Connecting With Listeners, Not Just Technical Execution. ”
-                    </blockquote>
+                        <div class="mentor-stat">
+                          <h3>10+</h3>
+                          <p>years experience</p>
+                        </div>
+
+                        <div class="mentor-stat">
+                          <h3>300+</h3>
+                          <p>students taught</p>
+                        </div>
+
+                        <div class="mentor-stat">
+                          <h3>60M+</h3>
+                          <p>streams</p>
+                        </div>
+
+                      </div>
+
+                      <blockquote class="mentor-quote">
+                        “ Music Production Is Ultimately About Storytelling, Emotion, And
+                        Connecting With Listeners, Not Just Technical Execution. ”
+                      </blockquote>
+
+                    </div>
+                    
                 </div>
 
-                <div class="mentor-image">
-                    <img src="images/mentor.jpg" alt="L.J. Vijay" />
+                <div class="mentor-image reveal">
+                    <img src="images/MENTOR.svg" alt="L.J. Vijay" />
                 </div>
             </div>
         </div>
@@ -375,20 +511,13 @@
     <section class="industry">
         <div class="container">
 
-            <div class="industry-header">
+            <div class="industry-header reveal">
                 <h2>
-                    INDUSTRY EXPERIENCE <br>
-                    YOU CAN LEARN FROM
+                    FEATURED WORKS
                 </h2>
-
-                <p>
-                    L.J. Vijay's production work spans chart-topping films,
-                    platinum artists, and acclaimed composers across the industry.
-                    These are the releases that built the expertise behind this mentorship.
-                </p>
             </div>
 
-            <div class="spotify-wrapper">
+            <div class="spotify-wrapper reveal">
                 <iframe
                     src="https://open.spotify.com/embed/playlist/1Baqr6iqDkXbHUCXXK8ThG?utm_source=generator&theme=0"
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -403,7 +532,7 @@
 
             <div class="industry-stats">
 
-                <div class="stat-column">
+                <div class="stat-column stagger">
                     <h4>Genres</h4>
                     <ul>
                     <li>Film</li>
@@ -413,7 +542,7 @@
                     </ul>
                 </div>
 
-                <div class="stat-column">
+                <div class="stat-column stagger">
                     <h4>Collaborators</h4>
                     <ul>
                     <li>Ghibran</li>
@@ -424,7 +553,7 @@
                     </ul>
                 </div>
 
-                <div class="stat-column">
+                <div class="stat-column stagger">
                     <h4>Specialisation</h4>
                     <ul>
                     <li>Production</li>
@@ -433,7 +562,7 @@
                     </ul>
                 </div>
 
-                <div class="stat-column">
+                <div class="stat-column stagger">
                     <h4>Philosophy</h4>
                     <ul>
                     <li>Structured</li>
@@ -442,7 +571,7 @@
                     </ul>
                 </div>
 
-                <div class="stat-column">
+                <div class="stat-column stagger">
                     <h4>Experience</h4>
                     <ul>
                     <li>10+ Years</li>
@@ -457,41 +586,41 @@
     <section class="audience">
         <div class="container">
 
-            <div class="section-heading">
+            <div class="section-heading reveal">
                 <h2>IS THIS FOR YOU?</h2>
             </div>
 
             <div class="audience-list">
 
-                <div class="audience-item">
+                <div class="audience-item stagger">
                     <span>01</span>
                     <p>
                     A Working Professional Or Student Serious About Mastering Music Production.
                     </p>
                 </div>
 
-                <div class="audience-item">
+                <div class="audience-item stagger">
                     <span>02</span>
                     <p>
                     An Intermediate Producer Ready To Elevate Both Creative And Technical Skills.
                     </p>
                 </div>
 
-                <div class="audience-item">
+                <div class="audience-item stagger">
                     <span>03</span>
                     <p>
                     A Musician Who Desires To Produce, Finish, And Commercially Release Their Own Music.
                     </p>
                 </div>
 
-                <div class="audience-item">
+                <div class="audience-item stagger">
                     <span>04</span>
                     <p>
                     Someone Who Struggles To Complete Tracks And Requires A Proven, Structured System.
                     </p>
                 </div>
 
-                <div class="audience-item">
+                <div class="audience-item stagger">
                     <span>05</span>
                     <p>
                     An Aspiring Producer Who Understands The Distinct Value Of Structured Mentorship.
@@ -503,127 +632,6 @@
         </div>
     </section>
 
-    <section class="apply" id="contact">
-        <div class="container">
-
-            <h2 class="apply-title">
-                READY TO RELEASE YOUR MUSIC?
-            </h2>
-
-            <form class="apply-form" id="applyForm">
-
-                <!-- Name -->
-
-                <div class="form-group">
-                    <label for="name">Full Name *</label>
-                    <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Enter Your Full Name"
-                    required
-                    >
-                    <small class="error"></small>
-                </div>
-
-                <!-- Phone -->
-
-                <div class="form-group">
-                    <label for="phone">Phone Number *</label>
-                    <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    placeholder="Enter Your Number"
-                    required
-                    >
-                    <small class="error"></small>
-                </div>
-
-                <!-- Music Link -->
-
-                <div class="form-group">
-                    <label for="music-link">Music Link (Optional)</label>
-                    <input
-                    type="url"
-                    id="music-link"
-                    name="music-link"
-                    placeholder="SoundCloud, Drive, YouTube, Spotify — Any Link Works"
-                    >
-                </div>
-
-                <!-- Message -->
-
-                <div class="form-group">
-                    <label for="message">
-                    What Stops You From Finishing And Releasing Tracks?
-                    </label>
-
-                    <textarea
-                    id="message"
-                    rows="3"
-                    placeholder="E.G. I Always Get Stuck In The Mixing Stage And Never Know When A Track Is Finished..."
-                    required
-                    ></textarea>
-                </div>
-
-                <!-- Radio -->
-
-                <div class="form-group">
-                    <label class="financial-label">
-                    Financial Commitment
-                    </label>
-
-                    <div class="radio-group">
-
-                    <label class="radio-item">
-                        <input
-                        type="radio"
-                        name="budget"
-                        value="ready"
-                        required
-                        >
-                        <span>
-                        I Understand This Requires An Investment Of ₹1,59,000,
-                        And I Have The Capital Ready If Accepted.
-                        </span>
-                    </label>
-
-                    <label class="radio-item">
-                        <input
-                        type="radio"
-                        name="budget"
-                        value="plan"
-                        >
-                        <span>
-                        I Am Highly Interested But Would Need To Discuss
-                        Payment Plan Options.
-                        </span>
-                    </label>
-
-                    <label class="radio-item">
-                        <input
-                        type="radio"
-                        name="budget"
-                        value="not-ready"
-                        >
-                        <span>
-                        I Cannot Commit To This Financial Level At This Time.
-                        </span>
-                    </label>
-
-                    </div>
-                </div>
-
-                <button type="submit" class="apply-btn">
-                    Apply Now
-                </button>
-
-            </form>
-
-        </div>
-    </section>
-
     <footer class="footer">
         <div class="container">
             <p>
@@ -631,6 +639,8 @@
             </p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
