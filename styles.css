@@ -95,7 +95,7 @@ section {
   min-height:100vh;
   display:flex;
   align-items:center;
-  background:url("images/DJ.webp") center/cover no-repeat;
+  background:url("images/Herobg.webp") center/cover no-repeat;
   overflow:hidden;
   margin-bottom:40px;
 }
