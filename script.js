@@ -1,5 +1,5 @@
 const form = document.getElementById("applyForm");
-
+const submitBtn = document.getElementById("submitBtn");
 const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyPcjZxcPuUyqTs7wTd4hEFxisJZ9OPp5UzY5aL3ac_1lN8NslfPdonz1MxO_op7IdKgw/exec";
 
 form.addEventListener("submit", async function (e) {
@@ -23,7 +23,9 @@ form.addEventListener("submit", async function (e) {
   };
 
   try {
-
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Submitting...";
+    submitBtn.style.cursor = "not-allowed";
     const response = await fetch(SCRIPT_URL, {
 
       method: "POST",
@@ -39,18 +41,26 @@ form.addEventListener("submit", async function (e) {
       // Tell Meta that a lead was generated
       fbq('track', 'Lead');
       
-      alert("Application submitted successfully!");
-
       form.reset();
 
-    }else{
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Apply Now";
+      submitBtn.style.cursor = "pointer";
 
+      alert("Application submitted successfully!");
+
+    }else{
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Apply Now";
+      submitBtn.style.cursor = "pointer";
       alert("Something went wrong.");
 
     }
 
   }catch(error){
-
+    submitBtn.disabled = false;
+    submitBtn.textContent = "Apply Now";
+    submitBtn.style.cursor = "pointer";
     alert("Network Error");
 
     console.error(error);

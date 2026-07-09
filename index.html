@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preload"
+      as="image"
+      href="images/DJ.webp">
+
     <title>Music Tutorship</title>
     <link rel="stylesheet" href="styles.css" />
 
@@ -105,14 +109,14 @@
                   <input
                     type="text"
                     id="name"
-                    placeholder="Enter Your Name"
+                    placeholder="Enter Your Name*"
                     required
                   >
 
                   <input
                     type="tel"
                     id="phone"
-                    placeholder="Enter Your Number"
+                    placeholder="Enter Your Number*"
                     required
                   >
 
@@ -129,7 +133,7 @@
                   <select name="budget" id="budget" required>
 
                     <option value="" disabled selected>
-                      Financial Commitment
+                      Financial Commitment*
                     </option>
                     
                     <option value="I Understand This Requires An Investment Of ₹1,59,000,
@@ -154,10 +158,11 @@
                 <textarea
                   id="message"
                   rows="4"
-                  placeholder="What Stops You From Finishing And Releasing Tracks?"
+                  placeholder="What Stops You From Finishing And Releasing Tracks?*"
+                  required
                 ></textarea>
 
-                <button type="submit">
+                <button type="submit" id="submitBtn">
                   Apply Now
                 </button>
 
