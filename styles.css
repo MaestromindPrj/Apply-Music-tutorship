@@ -224,6 +224,26 @@ section {
   color: #111;
 }
 
+.batch-info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.blink {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f20d0d;
+  animation: blink 1.5s infinite ease-in-out;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
 @media (max-width:991px){
 
 .hero2{
