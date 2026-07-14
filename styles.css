@@ -150,7 +150,7 @@ section {
 .hero2-seat span{
   color: #f20d0d;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 /* FORM */
@@ -235,7 +235,7 @@ section {
 .blink {
   text-transform: uppercase;
   font-weight: 600;
-  color: #f20d0d;
+  color: #ffbf00;
   animation: blink 1.5s infinite ease-in-out;
 }
 
@@ -280,10 +280,6 @@ section {
 
 .hero2-description{
   font-size:18px;
-}
-
-.hero2-seat{
-  font-size:20px;
 }
 
 .hero2-form{
